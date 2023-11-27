@@ -1,4 +1,4 @@
-package com.project.service;
+
 //import delle classi / interfacce che servono per il programma
 import java.net.ServerSocket;
 import java.net.Socket;
