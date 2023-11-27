@@ -17,7 +17,6 @@ public class Client {
 	//variabile booleana per gestire un ciclo (nel metodo main) per far continuare l'esecuzione del programma del client
 	boolean end;
 	
-	
 	public Client(String address,int port)throws Exception { //constructor della classe Client
 		/**INIZIALIZZAZIONE DELLE REFERENCE**/
 		client = new Socket(address,port);//passo nel construtor della classe Socket( ip del server , porta ) 
